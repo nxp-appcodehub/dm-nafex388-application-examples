@@ -1,0 +1,133 @@
+﻿ Release Name:     : NAFExx388 Application Example
+Package Version: v1.0
+Package License: LA_OPT_NXP_Software_License.htm - Production Use, Section 2.3 applies
+
+NAFE Examples    Version: 1.0
+							Description: NAFE Application Examples 
+							License: Open Source - BSD-3 (https://spdx.org/licenses/BSD-3-Clause.html)
+							Author: NXP
+							Name: NAFE Application Example
+							Location:
+								-Examples/Current Sensing/LPC54s018/source
+								-Examples/Current Sensing/LPC54628/source
+								-Examples/RDT4Wires/LPC54s018/source
+								-Examples/RDT4Wires/LPC54628/source
+								-Examples/RDT3Wires/LPC54s018/source
+								-Examples/RDT3Wires/LPC54628/source
+								-Examples/RDT2Wires/LPC54s018/source
+								-Examples/RDT2Wires/LPC54628/source
+								-Examples/VoltageSensing/LPC54s018/source
+								-Examples/VoltageSensing/LPC54628/source
+								-Examples/VoltageSensingMCMR/LPC54s018/source
+								-Examples/VoltageSensingMCMR/LPC54628/source
+								-Examples/WeightScale/LPC54s018/source
+								-Examples/WeightScale/LPC54628/source								
+							Format: source code
+
+
+MCUXpresso SDK             Version: 2.x
+                           Description: NXP's MCUXpresso SDK is a comprehensive software enablement package designed to simplify
+						   and accelerate application development with NXP’s microcontrollers and crossover processors based on
+						   Arm® Cortex®-M cores. Component lib integration examples use MCUXpresso SDK to demonstrate usage.
+                           License: LA_OPT_NXP_Software_License.htm - Production Use, Section 2.3 applies
+						   License file location: NAFE
+                           Author: NXP
+                           Name: MCUXpresso SDK
+                           Location:
+						   - Examples/Current Sensing/LPC54s018/drivers
+						   - Examples/Current Sensing/LPC54s018/device
+						   - Examples/Current Sensing/LPC54s018/board
+						   - Examples/Current Sensing/LPC54s018/component
+						   - Examples/Current Sensing/LPC54s018/utilities
+						   - Examples/Current Sensing/LPC54s018/startup
+						   - Examples/Current Sensing/LPC54628/drivers
+						   - Examples/Current Sensing/LPC54628/device
+						   - Examples/Current Sensing/LPC54628/board
+						   - Examples/Current Sensing/LPC54628/component
+						   - Examples/Current Sensing/LPC54628/utilities
+						   - Examples/Current Sensing/LPC54628/startup
+						   - Examples/RTD4Wires/LPC54s018/drivers
+						   - Examples/RTD4Wires/LPC54s018/device
+						   - Examples/RTD4Wires/LPC54s018/board
+						   - Examples/RTD4Wires/LPC54s018/component
+						   - Examples/RTD4Wires/LPC54s018/utilities
+						   - Examples/RTD4Wires/LPC54s018/startup
+						   - Examples/RTD4Wires/LPC54628/drivers
+						   - Examples/RTD4Wires/LPC54628/device
+						   - Examples/RTD4Wires/LPC54628/board
+						   - Examples/RTD4Wires/LPC54628/component
+						   - Examples/RTD4Wires/LPC54628/utilities
+						   - Examples/RTD4Wires/LPC54628/startup
+						   - Examples/RTD3Wires/LPC54s018/drivers
+						   - Examples/RTD3Wires/LPC54s018/device
+						   - Examples/RTD3Wires/LPC54s018/board
+						   - Examples/RTD3Wires/LPC54s018/component
+						   - Examples/RTD3Wires/LPC54s018/utilities
+						   - Examples/RTD3Wires/LPC54s018/startup
+						   - Examples/RTD3Wires/LPC54628/drivers
+						   - Examples/RTD3Wires/LPC54628/device
+						   - Examples/RTD3Wires/LPC54628/board
+						   - Examples/RTD3Wires/LPC54628/component
+						   - Examples/RTD3Wires/LPC54628/utilities
+						   - Examples/RTD3Wires/LPC54628/startup
+						   - Examples/RTD2Wires/LPC54s018/drivers
+						   - Examples/RTD2Wires/LPC54s018/device
+						   - Examples/RTD2Wires/LPC54s018/board
+						   - Examples/RTD2Wires/LPC54s018/component
+						   - Examples/RTD2Wires/LPC54s018/utilities
+						   - Examples/RTD2Wires/LPC54s018/startup
+						   - Examples/RTD2Wires/LPC54628/drivers
+						   - Examples/RTD2Wires/LPC54628/device
+						   - Examples/RTD2Wires/LPC54628/board
+						   - Examples/RTD2Wires/LPC54628/component
+						   - Examples/RTD2Wires/LPC54628/utilities
+						   - Examples/RTD2Wires/LPC54628/startup
+						   - Examples/VoltageSensing/LPC54s018/drivers
+						   - Examples/VoltageSensing/LPC54s018/device
+						   - Examples/VoltageSensing/LPC54s018/board
+						   - Examples/VoltageSensing/LPC54s018/component
+						   - Examples/VoltageSensing/LPC54s018/utilities
+						   - Examples/VoltageSensing/LPC54s018/startup
+						   - Examples/VoltageSensing/LPC54628/drivers
+						   - Examples/VoltageSensing/LPC54628/device
+						   - Examples/VoltageSensing/LPC54628/board
+						   - Examples/VoltageSensing/LPC54628/component
+						   - Examples/VoltageSensing/LPC54628/utilities
+						   - Examples/VoltageSensing/LPC54628/startup
+						   - Examples/VoltageSensingMCMR/LPC54s018/drivers
+						   - Examples/VoltageSensingMCMR/LPC54s018/device
+						   - Examples/VoltageSensingMCMR/LPC54s018/board
+						   - Examples/VoltageSensingMCMR/LPC54s018/component
+						   - Examples/VoltageSensingMCMR/LPC54s018/utilities
+						   - Examples/VoltageSensingMCMR/LPC54s018/startup
+						   - Examples/VoltageSensingMCMR/LPC54628/drivers
+						   - Examples/VoltageSensingMCMR/LPC54628/device
+						   - Examples/VoltageSensingMCMR/LPC54628/board
+						   - Examples/VoltageSensingMCMR/LPC54628/component
+						   - Examples/VoltageSensingMCMR/LPC54628/utilities
+						   - Examples/VoltageSensingMCMR/LPC54628/startup
+						   - Examples/WeightScale/LPC54s018/drivers
+						   - Examples/WeightScale/LPC54s018/device
+						   - Examples/WeightScale/LPC54s018/board
+						   - Examples/WeightScale/LPC54s018/component
+						   - Examples/WeightScale/LPC54s018/utilities
+						   - Examples/WeightScale/LPC54s018/startup
+						   - Examples/WeightScale/LPC54628/drivers
+						   - Examples/WeightScale/LPC54628/device
+						   - Examples/WeightScale/LPC54628/board
+						   - Examples/WeightScale/LPC54628/component
+						   - Examples/WeightScale/LPC54628/utilities
+						   - Examples/WeightScale/LPC54628/startup
+                           Format: source code
+
+CMSIS                      Version: 5.6.0
+                           Description: Vendor-independent hardware abstraction layer for microcontrollers that are based on
+						   Arm® Cortex® processors, distributed by ARM® cores.
+                           License: Apache License 2.0
+						   License file location: nafe_sdk_lpc54s018/LICENSE.txt
+                           Author: ARM
+                           Name: CMSIS
+                           Location:
+						   - nafe_sdk_lpc54s018/CMSIS
+                           Format: source code
+						   URL: https://github.com/ARM-software/CMSIS_5/releases/tag/5.6.0
