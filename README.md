@@ -37,9 +37,10 @@ The needed Hardware are:
 * Power supply of 15V,-15V and 3.3V or 24V power adapter.
 * USB Cable.
 * [LPCXpresso54628](https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/lpcxpresso-boards/lpcxpresso54628-development-board:OM13098) or [LPCXpresso54s018](https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/general-purpose-mcus/lpc54000-arm-cortex-m4-/lpcxpresso54s018-development-board:LPC54S018-EVK) Development Boards.
-	- <img src="/Image/LPCxpresso54s018.png" alt="drawing" width="300"/>
+    - <img src ="./Images/LPCxpresso54s018.png" alt="drawing" width="300"/>
+	![Alt text](/Images/LPCxpresso54s018.png)
 * [NXP_NAFExxx388_EVB](https://www.nxp.com/design/design-center/development-boards-and-designs/analog-toolbox/nafexx388-evb-8-channels-universal-input-afe-evaluation-board:NAFExx388-EVB)
-	- <img src="/Image/NAFE_EVK.png" alt="drawing" width="300"/>
+	- <img src="./Images/NAFE_EVK.png" alt="drawing" width="300"/>
 * RTD Sensor (Example *RTD 2/3/4 Wires*).
 * 250 ohm resistor (Example *Current Sensing*).
 * Load Cell (Example *Weight Scale*).
@@ -85,7 +86,7 @@ Where is reported the time elapsed and results for each channels, in order to re
 No FAQs have been identified for this project.
 
 ## 6. Support<a name="step6"></a>
-* [NAFEx3388 Highly Configurable 8 Channel ±25 V Universal Input Analog Front-End with Excitation Sources](https://www.nxp.com/products/analog-and-mixed-signal/analog-front-end/highly-configurable-8-channel-25-v-universal-input-analog-front-end-with-excitation-sources:NAFEx3388)
+* [NAFEx3388 Highly Configurable 8 Channel ï¿½25 V Universal Input Analog Front-End with Excitation Sources](https://www.nxp.com/products/analog-and-mixed-signal/analog-front-end/highly-configurable-8-channel-25-v-universal-input-analog-front-end-with-excitation-sources:NAFEx3388)
 #### Project Metadata
 <!----- Boards ----->
 [![Board badge](https://img.shields.io/badge/Board-LPCXPRESSO54628-blue)](https://github.com/search?q=org%3Anxp-appcodehub+LPCXpresso54628+in%3Areadme&type=Repositories) [![Board badge](https://img.shields.io/badge/Board-LPCXPRESSO54S018-blue)](https://github.com/search?q=org%3Anxp-appcodehub+LPCXpresso54S018+in%3Areadme&type=Repositories)
