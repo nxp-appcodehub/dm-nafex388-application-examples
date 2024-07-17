@@ -76,7 +76,7 @@ For all results, for each of the examples in this repository please refer to [AN
 
 Here an example of console output for Voltage Sensing Example.
 
-<img src="./Image/Console_output.png" alt="drawing" width="600"/>
+<img src="./Images/Console_output.png" alt="drawing" width="600"/>
 
 Where is reported the time elapsed and results for each channels, in order to request a new conversion it's needed to click any button.
 
