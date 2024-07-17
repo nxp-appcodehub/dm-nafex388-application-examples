@@ -38,7 +38,6 @@ The needed Hardware are:
 * USB Cable.
 * [LPCXpresso54628](https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/lpcxpresso-boards/lpcxpresso54628-development-board:OM13098) or [LPCXpresso54s018](https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/general-purpose-mcus/lpc54000-arm-cortex-m4-/lpcxpresso54s018-development-board:LPC54S018-EVK) Development Boards.
     - <img src ="./Images/LPCxpresso54s018.png" alt="drawing" width="300"/>
-	![Alt text](/Images/LPCxpresso54s018.png)
 * [NXP_NAFExxx388_EVB](https://www.nxp.com/design/design-center/development-boards-and-designs/analog-toolbox/nafexx388-evb-8-channels-universal-input-afe-evaluation-board:NAFExx388-EVB)
 	- <img src="./Images/NAFE_EVK.png" alt="drawing" width="300"/>
 * RTD Sensor (Example *RTD 2/3/4 Wires*).
@@ -77,7 +76,7 @@ For all results, for each of the examples in this repository please refer to [AN
 
 Here an example of console output for Voltage Sensing Example.
 
-<img src="/Image/Console_output.png" alt="drawing" width="600"/>
+<img src="./Image/Console_output.png" alt="drawing" width="600"/>
 
 Where is reported the time elapsed and results for each channels, in order to request a new conversion it's needed to click any button.
 
