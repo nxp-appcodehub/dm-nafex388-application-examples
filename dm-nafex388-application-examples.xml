@@ -1,4 +1,4 @@
-<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-nafexx388-application-examples" type="demo" format="projectfile" versionSchema="1.0.0" name="nafexx388 application examples">
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-nafex388-application-examples" type="demo" format="projectfile" versionSchema="1.0.0" name="nafex388 application examples">
     <display_title>
         Nafe Industrial Application Examples using API Libraries
     </display_title>
