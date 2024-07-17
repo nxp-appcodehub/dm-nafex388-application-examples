@@ -61,7 +61,7 @@ The hardware setup (NXP_NAFExxx388_EVB) changes depending on the power supply mo
 Instead the jumpers J78 and J79 must be closed, in all configuration.
 
 ### 3.2 Step 2
-Start debugging the choosen project.
+Start debugging the chosen project.
 
 ### 3.3 Step 3
 Configure the integrate terminal console with the follow configuration:
