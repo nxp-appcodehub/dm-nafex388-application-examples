@@ -41,6 +41,10 @@
 *.su
 *.idb
 *.pdb
+*.Debug/
+
+# Eclipse
+*.settings/
 
 # Kernel Module Compile Results
 *.mod*

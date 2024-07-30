@@ -3,7 +3,7 @@
 Package:			NAFExx388 Application Example
 Version:			1.0
 Outgoing License:	BSD-3-Clause
-License File:		LICENSE
+License File:		LICENSE.txt
 Description:		NAFExx388 Application Examples for LPC546xx and LPC54xxx.
 Release location:	https://github.com/dm-nafex388-application-examples
 Origin:				NXP (BSD-3-Clause) - https://spdx.org/licenses/BSD-3-Clause.html
@@ -12,7 +12,7 @@ Origin:				NXP (BSD-3-Clause) - https://spdx.org/licenses/BSD-3-Clause.html
 NAFE Examples       Version: 1.0
 					Description: NAFE Application Examples 
 					Outgoing License: BSD-3-Clause (https://spdx.org/licenses/BSD-3-Clause.html)
-                    License File: LICENSE
+                    License File: LICENSE.txt
 					Author: NXP
 					Name: NAFE Application Example
 					Release Location:
@@ -27,11 +27,12 @@ MCUXpresso SDK      Version: 2.x
                                 and accelerate application development with NXP’s microcontrollers and crossover processors based on
                                 Arm® Cortex®-M cores. Component lib integration examples use MCUXpresso SDK to demonstrate usage.
                     Outgoing License: BSD-3-Clause (https://spdx.org/licenses/BSD-3-Clause.html)
-					License File: LICENSE
+					License File: LICENSE.txt
                     Author: NXP
                     Name: MCUXpresso SDK
                     Release Location:
 						- dm-nafex388-application-examples/Examples
+						- http://mcuxpresso.nxp.com/
                     Format: source code
                     Origin: NXP (BSD-3-Clause)
 
