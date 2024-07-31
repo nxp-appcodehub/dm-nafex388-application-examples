@@ -7,7 +7,7 @@ License File:		LICENSE.txt
 Description:		NAFExx388 Application Examples for LPC546xx and LPC54xxx.
 Release location:	https://github.com/dm-nafex388-application-examples
 Origin:				NXP (BSD-3-Clause) - https://spdx.org/licenses/BSD-3-Clause.html
-					ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.4.0
+					ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.6.0
 
 NAFE Examples       Version: 1.0
 					Description: NAFE Application Examples 
