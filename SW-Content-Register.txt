@@ -10,29 +10,29 @@ Origin:				NXP (BSD-3-Clause) - https://spdx.org/licenses/BSD-3-Clause.html
 					ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.6.0
 
 
-MCUXpresso SDK      Version: 2.x
+MCUXpresso SDK      Name: MCUXpresso SDK
+					Version: 2.x
+					Outgoing License: BSD-3-Clause (https://spdx.org/licenses/BSD-3-Clause.html)
+					License File: LICENSE.txt
+					Format: source code
 					Description: NXP's MCUXpresso SDK is a comprehensive software enablement package designed to simplify
                                  and accelerate application development with NXP’s microcontrollers and crossover processors based on
                                  Arm® Cortex®-M cores. Component lib integration examples use MCUXpresso SDK to demonstrate usage.
-					Outgoing License: BSD-3-Clause (https://spdx.org/licenses/BSD-3-Clause.html)
-					License File: LICENSE.txt
-					Author: NXP
-					Name: MCUXpresso SDK
 					Release Location:
 									- https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-software-development-kit-sdk:MCUXpresso-SDK
-					Format: source code
+					Author: NXP		
 					Origin: NXP (BSD-3-Clause)
 
-CMSIS               Version: 5.6.0
-                    Description: Vendor-independent hardware abstraction layer for microcontrollers that are based on
-                                 Arm® Cortex® processors, distributed by ARM® cores.
-                    Outgoing License: Apache License 2.0
+CMSIS               Name: CMSIS
+					Version: 5.6.0
+					Outgoing License: Apache License 2.0
 					License File:
 								- dm-nafex388-application-examples/Examples/<example_name>/LPC54s018/CMSIS/LICENSE.txt
 								- dm-nafex388-application-examples/Examples/<example_name>/LPC54628/CMSIS/LICENSE.txt
-					Author: ARM
-					Name: CMSIS
+					Format: source code
+                    Description: Vendor-independent hardware abstraction layer for microcontrollers that are based on
+                                 Arm® Cortex® processors, distributed by ARM® cores.
 					Release Location:
 									- https://github.com/ARM-software/CMSIS_5/releases/tag/5.6.0
-                    Format: source code
+					Author: ARM
 					Origin: ARM (Apache 2.0) 
