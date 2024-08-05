@@ -4,18 +4,10 @@
 //                  to hang application when debugger not connected.
 //
 // ****************************************************************************
-// Copyright 2017-2023 NXP
+// Copyright 2017-2024 NXP
 // All rights reserved.
 //
-// NXP Confidential. This software is owned or controlled by NXP and may only be
-// used strictly in accordance with the applicable license terms.
-//
-// By expressly accepting such terms or by downloading, installing, activating
-// and/or otherwise using the software, you are agreeing that you have read, and
-// that you agree to comply with and are bound by, such license terms.
-// 
-// If you do not agree to be bound by the applicable license terms, then you may not
-// retain, install, activate or otherwise use the software.
+// SPDX-License-Identifier: BSD-3-Clause
 // ****************************************************************************
 //
 //                       ===== DESCRIPTION =====
@@ -60,37 +52,45 @@ __attribute__((naked))
 void HardFault_Handler(void){
     __asm(  ".syntax unified\n"
         // Check which stack is in use
-            "MOVS   R0, #4  \n"
-            "MOV    R1, LR  \n"
-            "TST    R0, R1  \n"
-            "BEQ    _MSP    \n"
-            "MRS    R0, PSP \n"
-            "B  _process      \n"
-            "_MSP:  \n"
-            "MRS    R0, MSP \n"
+            "MOVS   R0, #4           \n"
+            "MOV    R1, LR           \n"
+            "TST    R0, R1           \n"
+            "BEQ    _MSP             \n"
+            "MRS    R0, PSP          \n"
+            "B  _process             \n"
+            "_MSP:                   \n"
+            "MRS    R0, MSP          \n"
         // Load the instruction that triggered hard fault
-        "_process:     \n"
-            "LDR    R1,[R0,#24] \n"
-            "LDRH    R2,[r1] \n"
+        "_process:                   \n"
+            "LDR    R1,[R0,#24]      \n"
+            "LDRH   R2,[r1]          \n"
         // Semihosting instruction is "BKPT 0xAB" (0xBEAB)
-            "LDR    R3,=0xBEAB \n"
-            "CMP     R2,R3 \n"
+            "LDR    R3,=0xBEAB       \n"
+            "CMP    R2,R3            \n"
             "BEQ    _semihost_return \n"
         // Wasn't semihosting instruction so enter infinite loop
-            "B . \n"
+            "B .                     \n"
         // Was semihosting instruction, so adjust location to
         // return to by 1 instruction (2 bytes), then exit function
-        "_semihost_return: \n"
-            "ADDS    R1,#2 \n"
-            "STR    R1,[R0,#24] \n"
-    	// Set a return value from semihosting operation.
-    	// 32 is slightly arbitrary, but appears to allow most
-    	// C Library IO functions sitting on top of semihosting to
-    	// continue to operate to some degree
-    		    "MOVS   R1,#32 \n"
-    		    "STR R1,[ R0,#0 ] \n" // R0 is at location 0 on stack
-    	// Return from hard fault handler to application
-            "BX LR \n"
+            "_semihost_return:       \n"
+            "ADDS   R1,#2            \n"
+            "STR    R1,[R0,#24]      \n"
+        // Set a return value from semihosting operation.
+        // 0 is slightly arbitrary, but appears to allow most
+        // C Library IO functions sitting on top of semihosting to
+        // continue to operate to some degree
+        // Return a positive value (32) for SYS_OPEN only
+            "LDR    R1,[ R0,#0 ]     \n"  // R0 is at location 0 on stack
+            "CMP    R1, #1           \n"  // 0x01=SYS_OPEN
+            "BEQ    _non_zero_ret    \n"
+            "MOVS   R1,#0            \n"
+            "B      _sys_ret         \n"
+            "_non_zero_ret:          \n"
+            "MOVS   R1,#32           \n"
+            "_sys_ret:               \n"
+            "STR    R1,[ R0,#0 ]     \n" // R0 is at location 0 on stack
+        // Return from hard fault handler to application
+            "BX     LR               \n"
         ".syntax divided\n") ;
 }
 
